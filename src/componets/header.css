@@ -1,0 +1,25 @@
+
+.header-search-form {
+  width: 100%;
+}
+
+.header-search-form .form-control {
+  min-width: 0;
+}
+
+.navbar .header-search-button {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.navbar .header-search-button:hover,
+.navbar .header-search-button:focus-visible {
+  background-color: #0b5ed7;
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .header-search-form {
+    width: min(28vw, 320px);
+  }
+}

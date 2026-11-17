@@ -1,0 +1,25 @@
+.product-detail__image {
+  display: block;
+  width: 100%;
+  max-height: min(65vh, 560px);
+  object-fit: contain;
+}
+
+.product-detail__content {
+  max-width: 640px;
+}
+
+.product-detail__title {
+  font-size: clamp(1.75rem, 4vw, 3rem);
+  overflow-wrap: anywhere;
+}
+
+.product-detail__description {
+  line-height: 1.7;
+}
+
+.product-detail__price {
+  color: #3a87eb;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
